@@ -1,0 +1,90 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Muhammad Tayyab Talha"
+theme = "coder-portfolio" #"hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+# pygmentsstyle = "bw"
+# pygmentscodefences = true
+# pygmentscodefencesguesssyntax = true
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Muhammad Tayyab Talha"
+    info = "Backend Developer/Devops Engineer"
+    description = "Tayyab's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/profile.jpg"
+
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "A person who is always in a spell"
+    fixedbarContent = "I'm a Geek →" # Add fixedbar content
+    fixedbarContentAfter = "PHP, Go And Linux. Thank You! Please share it if you like it→" # Add fixedbar content after click
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+    itemscentered = true
+
+    snsShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/tayyabtalha/"
+#[[params.social]]
+#    name = "Gitlab"
+#    icon = "fab fa-gitlab fa-2x"
+#    weight = 2
+#    url = "https://gitlab.com/johndoe/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 2
+    url = "https://twitter.com/TayyabTalha5/"
+
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/tayyabtalha/"
+
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "/projects/"
+[[menu.main]]
+    name = "Contact"
+    weight = 4
+    url = "/contact/"
