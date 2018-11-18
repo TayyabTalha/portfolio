@@ -1,4 +1,4 @@
-baseURL = "serene-curie-b8287a.netlify.com"
+baseurl = "serene-curie-b8287a.netlify.com"
 languageCode = "en-us"
 title = "Muhammad Tayyab Talha"
 theme = "coder-portfolio" #"hugo-coder"
